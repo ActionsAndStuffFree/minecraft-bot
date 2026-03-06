@@ -4,7 +4,7 @@ const bot = mineflayer.createBot({
   host: 'eclipithium.falix.gg',
   port: 25565,
   username: 'Eclipithium',
-  version: '1.21.1'
+  version: '1.21.11'
 })
 
 let center = null
