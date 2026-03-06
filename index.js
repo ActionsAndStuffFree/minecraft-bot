@@ -4,7 +4,7 @@ const bot = mineflayer.createBot({
   host: 'eclipithium.falix.gg',
   port: 25565,
   username: 'Eclipithium',
-  version: '1.21.11'
+  version: '1.21.1'
 })
 
 let center = null
@@ -12,11 +12,13 @@ let angle = 0
 
 bot.once('spawn', () => {
 
+  console.log('Bot entrou no servidor!')
+
   center = bot.entity.position.clone()
 
   setInterval(() => {
 
-    if (!bot.entity || bot.entity.onGround) return
+    if (!bot.entity) return
 
     angle += Math.PI / 8
 
