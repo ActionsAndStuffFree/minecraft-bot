@@ -1,9 +1,10 @@
 const mineflayer = require('mineflayer')
 
 const bot = mineflayer.createBot({
-  host: 'eclipithium.falix.gg',
+  host: 'IP_DO_SERVIDOR',
   port: 25565,
-  username: 'Eclipithium'
+  username: 'BotAFK',
+  version: '1.21.1'
 })
 
 let center = null
